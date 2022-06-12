@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where To</title>
+    <script>
+        function myfunction() {
+            document.getElementById("demo").innerHTML = "Hello World";
+        }
+    </script>
+</head>
+
+<body>
+    <p id="demo">First paragraph</p>
+    <p id="demo1">First paragraph</p>
+    <button type="button" onclick="myfunction()">Try It</button>
+    <script>
+        function myfunction() {
+            document.getElementById("demo").innerHTML = "Hello World from inside";
+        }
+    </script>
+
+</body>
+
+<script>
+    document.getElementById("demo").innerHTML = "Hello World from outside";
+    // console.log("hello students")
+</script>
+<script src="whereTo.js"></script>
+
+</html>
